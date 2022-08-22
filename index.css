@@ -1,0 +1,112 @@
+#board , th , td{
+    border: 0px solid #F2A000;
+    margin: 0 auto 0 auto;
+ width: 50%;
+}
+body{
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+
+#instructionParagraph{
+    visibility:hidden;
+}
+#reference{
+    visibility: hidden;
+}
+#TopPannel{
+    text-align:center;
+    visibility: hidden;
+}
+#Topfirst{
+    margin-right: 5%;
+    position: relative;
+    display: inline;
+}
+
+#Topsecond{
+    margin-right:5%;
+    position: relative;
+    display: inline;
+}
+#Topthird{
+    margin-right : 0%;
+    position: relative;
+    display: inline;
+}
+
+#ButtomPannel{
+    text-align:center;
+    visibility: hidden;
+}
+
+
+#Buttonfirst{
+    margin-right: 5%;
+    position: relative;
+    display: inline;
+}
+
+#Buttonsecond{
+    margin-right: 5%;
+    position: relative;
+    display: inline;
+}
+#Buttonthird{
+    margin-right: 0%;
+    position: relative;
+    display: inline;
+}
+
+#MiddlePannel {
+    display: flex;
+}
+
+#MiddleLeftArrows{
+    margin-top: 125px;
+    margin-left: 100px;
+    visibility: hidden;
+}
+
+#Leftfirst{
+    position: relative;
+    display: inline;
+}
+#Leftsecond{
+    margin-top:50px;
+    position: relative;
+    display: inline;
+}
+#Leftthird{
+    margin-top:50px;
+    position: relative;
+    display: inline;
+}
+
+#MiddleRightArrow{
+    margin: 125px 170px 0px 0px ;
+    background-color: #00052F;
+    visibility: hidden;
+}
+
+#MiddleLeftArrows img, 
+#MiddleRightArrow img {
+    display: block;
+}
+
+#Rightfirst{
+   
+    display: inline;
+}
+#Rightsecond{
+    margin-top:50px;
+   
+    display: inline;
+}
+#Rightthird{
+    margin-top:50px;
+    
+    display: inline;
+}
